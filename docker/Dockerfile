@@ -6,7 +6,7 @@ FROM docker.osgeo.org/geoserver:2.25.x
 # install additional tools, copy configuration files, etc.
 
 # Example: Setting an environment variable
-ENV MY_CUSTOM_ENV_VAR=my_value
+# ENV MY_CUSTOM_ENV_VAR=my_value
 
 # Example: Copying a custom GeoServer data directory into the container
 # COPY my_geoserver_data_dir /geoserver_data_dir
