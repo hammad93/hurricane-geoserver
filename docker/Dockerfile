@@ -1,5 +1,5 @@
 # Start from the GeoServer image
-FROM docker.osgeo.org/geoserver:2.25.x
+FROM kartoza/geoserver
 
 # Your customizations go here
 # For example, you might want to set environment variables,
