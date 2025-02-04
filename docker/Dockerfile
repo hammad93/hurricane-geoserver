@@ -7,6 +7,8 @@ FROM docker.osgeo.org/geoserver:2.26.2
 
 # after troubleshooting apt update
 RUN chmod 1777 /temp
+RUN apt update -y
+
 # install python
 RUN apt install python3 python3-venv
 RUN python3 -m venv venv .
