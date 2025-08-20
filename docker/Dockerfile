@@ -16,6 +16,5 @@ ENV PROXY_BASE_URL=https://nfc.ai/geoserver
 ENV GEOSERVER_CSRF_WHITELIST=nfc.ai
 # Example: Copying a custom GeoServer data directory into the container
 # COPY my_geoserver_data_dir /geoserver_data_dir
-
 # No CMD or ENTRYPOINT is necessary if you're just using the base image's setup,
 # but you can override or specify them if needed.
