@@ -11,7 +11,7 @@ FROM docker.osgeo.org/geoserver:2.28.x
 # ENV MY_CUSTOM_ENV_VAR=my_value
 ENV CORS_ENABLED=true
 ENV INSTALL_EXTENSIONS=true
-ENV STABLE_EXTENSIONS=ysld,ogcapi-features
+ENV STABLE_EXTENSIONS=ysld,ogcapi-features,gdal,libjpeg-turbo,netcdf,netcdf-out,monitor,importer
 ENV PROXY_BASE_URL=https://nfc.ai/geoserver
 ENV GEOSERVER_CSRF_WHITELIST=nfc.ai
 ENV GEOSERVER_ADMIN_USER=main
