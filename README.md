@@ -2,7 +2,7 @@
 A repository that hosts code for GeoServer related to deep learning forecasts of tropical storms.
 
 # Container
-The container runs the application on port 6004. Navigate to localhost:6004/geoserver for demo. Set the Geoserver admin pass like `-e GEOSERVER_ADMIN_PASSWORD=invalidpass123`.
+The container runs the application on port 6004. Navigate to localhost:6004/geoserver for demo. Set the Geoserver admin pass like `-e GEOSERVER_ADMIN_PASSWORD='invalidpass123'`.
 
 ```bash
 cd docker/
