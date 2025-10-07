@@ -1,5 +1,5 @@
 # Start from the GeoServer image
-FROM docker.osgeo.org/geoserver:2.28.x
+FROM docker.osgeo.org/geoserver:2.27.2
 
 # Your customizations go here
 # For example, you might want to set environment variables,
